@@ -1,14 +1,8 @@
-## ----setup, include=FALSE--------------------------------------------------
-knitr::opts_chunk$set(echo = TRUE)
+## Takes ~ 1 min to run
 
 
-## --------------------------------------------------------------------------
-# getwd()
-
-
-## --------------------------------------------------------------------------
 download.file('https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip', 'HADataset.zip')
-
+unzip('HADataset.zip', exdir = 'test')
 
 ## --------------------------------------------------------------------------
 library(dplyr)
@@ -102,6 +96,6 @@ View(TidyTable)
 
 
 ## --------------------------------------------------------------------------
-write.table(TidyTable, file = 'TidyTable.txt')
+write.table(TidyTable, file = 'TidyTable.txt', row.names = FALSE)
 
 
