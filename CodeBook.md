@@ -1,4 +1,4 @@
-#TidyTest.txt Codebook:
+#TidyTest.txt Codebook:#
 
 - subjectID: Anonynmized unique identification number of each study participant
 - acitivity: One of the six activities the participants performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
