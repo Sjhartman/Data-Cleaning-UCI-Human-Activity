@@ -2,11 +2,11 @@
 
 The run_analysis.R script downloads and cleans the Human Activity Recognition data from University of California Irvine.
 The script performs the following operations sequentially:
-Prob 1:
-  Download https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-  Open the test and training datasets
-  Open and combine the training and test labels to their respective dataset
-  Combine the new test and training datasets together using cbind
+- Prob 1:
+  - Download https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+  - Open the test and training datasets
+  - Open and combine the training and test labels to their respective dataset
+  - Combine the new test and training datasets together using cbind
 Prob 2:
   - Label the dataset columns using a vector generated from the features.txt file
   - Use select(data, matches()) to select mean and sd data from the combined data set using Regex matching
