@@ -20,5 +20,5 @@ The script performs the following operations sequentially:
   - Creates a new table that averages the mean and sd variables of the combined data table by each activity and each subject of the study. 
   - Utilizes groupby and summarize to produce TidyTable.txt that is built to fit tidy data criteria
   
-  Codebook.md describes variables used in this analysis
-  TidyTable.txt is the final data frame
+- Codebook.md describes variables used in this analysis
+- TidyTable.txt is the final data frame
